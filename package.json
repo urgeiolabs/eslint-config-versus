@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-versus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "3.6.1",
+    "eslint-plugin-react": "6.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Matthew Torres <matthew.torres211@gmail.com> (https://github.com/mateeyow)",
+  "license": "ISC"
+}
