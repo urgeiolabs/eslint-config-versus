@@ -101,5 +101,6 @@ module.exports = {
     'react/jsx-no-undef': 2,
     'raect/jsx-space-before-closing': 2,
     'react/jsx-uses-vars': 2,
+    'react/jsx-uses-react': 2
   }
 }
