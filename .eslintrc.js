@@ -89,7 +89,6 @@ module.exports = {
     'template-curly-spacing': [2, 'never'],
     // ReactJS rules starts here
     'jsx-quotes': [2, 'prefer-single'],
-    'react/prefer-stateless-function': [1, { ignorePureComponents: true }],
     'react/self-closing-comp': 2,
     'react/jsx-boolean-value': 2,
     'react/jsx-curly-spacing': [2, 'never'],
