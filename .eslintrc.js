@@ -59,7 +59,7 @@ module.exports = {
     'no-trailing-spaces': 2,
     'no-unneeded-ternary': 2,
     'no-whitespace-before-property': 2,
-    'object-curly-spacing': [2, 'always', { 'arraysInObjects': false, objectsInObjects: false }],
+    'object-curly-spacing': [2, 'always', { 'arraysInObjects': false }],
     'object-property-newline': [2, { allowMultiplePropertiesPerLine: true }],
     'one-var': [2, { initialized: 'never' }],
     'operator-linebreak': [2, 'after', { 'overrides': { '?': 'before', ':': 'before' } }],
