@@ -55,6 +55,13 @@ a = c
 ## Questions:
 - Should we require proptypes always when tackling with props? - react/prop-types
 - Should we sort component methods? [react/sort-comp](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md)
+- Should we remove console.log every after push? - no-console
+- Should we allow using of method before defining it? - no-use-before-define
+```js
+// BAD?
+hello()
+const hello = () => 'test'
+```
 
 ## ReactJS rules
 - JSX attribute quotes should be single quote
