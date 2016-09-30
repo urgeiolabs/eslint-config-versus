@@ -1,10 +1,14 @@
 # Versus JavaScript/ReactJS Style Guide
 
 >> /o/ |o| \o\
+
 >> Note: Not all rules are listed here just the important parts. Please refer to .eslintrc.js
+
 >> Anyone up for making the badge?
 
-* - Still open for discussion
+Legend:
+
+  - * = Still open for discussion
 
 ## Table of Contents
 
