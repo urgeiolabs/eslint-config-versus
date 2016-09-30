@@ -14,6 +14,8 @@ module.exports = {
   extends: 'eslint:recommended',
   plugins: ['react'],
   rules: {
+    'no-case-declarations': 0,
+    'no-undef': 0,
     'no-octal-escape': 2,
     'no-proto': 2,
     'no-redeclare': 2,
