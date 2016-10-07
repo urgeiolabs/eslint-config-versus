@@ -23,7 +23,6 @@ Legend:
 
 ## General
 
-  - Console*[no-console]: console.log should be removed whenever the code will be pushed
   - Always use `isNaN()` function when checking if variable is NaN[use-isnan]
 
   ```js
@@ -165,15 +164,6 @@ Legend:
 
 ## Whitespace
 
-  - No irregular whitespace[no-irregular-whitespace]
-
-  ```js
-  // BAD
-  function test (  test) {
-    return 'test'
-  }
-  ```
-
   - There should be no spacing on array brackets except for deconstructing array[array-bracket-spacing]
 
   ```js
@@ -295,24 +285,6 @@ Legend:
   function a() { ... }
   ```
 
-  - There should be space before and after a function parenthesis[space-before-function-paren]
-
-  ```js
-  // BAD
-  function a() { ... }
-  class Foo {
-    constructor() {
-      // DO SOMETHING
-    }
-  }
-
-  // GOOD
-  function a () { ... }
-  class Foo {
-    constructor () { ... }
-  }
-  ```
-
   - There should a space before and after an arrow - ES6[arrow-spacing]
 
   ```js
@@ -339,7 +311,6 @@ Legend:
   - All require statements should be arranged*[no-mixed-requires]
 
   ```js
-  // FOR THIS RULE THERE IS ALSO AN OPTION TO ARRANGE THE REQUIRE STARTING FROM CORE, MODULE, FILE, etc. Should we enable this?
   // BAD
   const fs = require('fs')
   const async = require('async')
@@ -348,7 +319,9 @@ Legend:
 
   // GOOD
   const fs = require('fs')
+
   const async = require('async')
+
   const file = require('./file')
   
   const a = 'hello'
@@ -385,27 +358,6 @@ Legend:
   }
   ```
 
-  - Comma should be on the last line*[comma-style]
-
-  ```js
-  // I THINK SADOHT WON'T LIKE THIS
-  // BAD
-  const arr = [
-    many
-    , array
-  ]
-  var foo = 2
-    , bar = 3
-
-  // GOOD
-  const arr = [
-    many,
-    array
-  ]
-  var boo = 5,
-    hoo = 9
-  ```
-
   - The last line of your code file should be a newline[eol-last]
 
   ```js
@@ -415,48 +367,6 @@ Legend:
   // GOOD
   const a = () => 'test'
 
-  ```
-
-  - Maximum depth of block should not be greater than 5[max-depth]
-
-  ```js
-  // BAD
-  function fn () {
-    for (;;) { // 1
-      const arr = () => { // 2
-        if (true) { // 3
-          if (false) { // 4
-            if (true) { // 5
-              if (false) { // 6
-
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  ```
-
-  - There should be no newline inside a block*[padded-blocks]
-
-  ```js
-  // BAD
-  if (a) {
-
-    c()
-
-  }
-
-  if (c) {
-
-    d()
-  }
-
-  // GOOD
-  if (a) {
-    c()
-  }
   ```
 
   - Always use single quotes whenever possible[quotes]
@@ -617,6 +527,7 @@ Legend:
   - Maximum callback hell should not exceed to 3[max-nested-callbacks]
 
   ```js
+  // LIMIT CALLBACK IS 5
   // BAD
   function () {
     function () {
@@ -658,15 +569,6 @@ Legend:
 
   // GOOD
   <Hello name={name} />
-  ```
-
-  - Indention on props children should be 2 spaces[react/jsx-indent]
-
-  ```js
-  // GOOD
-  <App>
-    <Hello />
-  </App>
   ```
 
   - Always add `key` to component that was iterated[react/jsx-key]
