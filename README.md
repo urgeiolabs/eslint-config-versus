@@ -447,24 +447,6 @@ Legend:
   let a, b
   ```
 
-  - Early use of variable and function before declaring*[no-use-before-define]
-
-  ```js
-  // BAD
-  alert(a)
-  const a = 5
-
-  b()
-  cosnt b = () => { return 'test' }
-
-  // GOOD
-  const a = 5
-  const b = () => { return 'test' }
-
-  alert(a)
-  b()
-  ```
-
   - initializing a variable should have only one var, const or let[one-var]
 
   ```js
