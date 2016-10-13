@@ -249,20 +249,6 @@ Legend:
   const b = 4
   ```
 
-  - There should be a space after open curly brace and before close curly brace for objects and destructor[object-curly-spacing]
-
-  ```js
-  // BAD
-  const obj = {foo: 'bar'}
-  const a = {foo: ['test'] }
-  const b = ({foo}) => { ... }
-
-  // GOOD
-  const a = { foo: 'bar' }
-  const b = { foo: ['test']}
-  const c = ({ foo }) => { ... }
-  ```
-
   - There should be a space before and after a block[space-before-blocks]
 
   ```js
@@ -532,16 +518,6 @@ Legend:
   ```
 
 ## ReactJs
-
-  - Component without children should use self-closing component[react/self-closing-comp]
-
-  ```js
-  // BAD
-  <Hello></Hello>
-
-  // GOOD
-  <Hello />
-  ```
 
   - Don't add a space inside a an attribute brace[react/jsx-curly-spacing]
 
