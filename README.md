@@ -189,20 +189,6 @@ Legend:
   var b = [ 2, 3 ]
   ```
 
-  - Indention on blocks should be 2 spaces[indent]
-
-  ```js
-  // BAD
-  function fn () {
-        wee()
-  }
-
-  // GOOD
-  function test () {
-    yey()
-  }
-  ```
-
   - Spacing on object keys should be after the colon and not before[key-spacing]
 
   ```js
@@ -443,24 +429,6 @@ Legend:
   const a = 6
   const c = 3
   const d, e, f
-  ```
-
-  - Line break should always be after the operator except ternary operators[operator-linebreak]
-
-  ```js
-  // BAD
-  const a = 3
-    + 5
-  const c = true ?
-    3 :
-    5
-
-  // GOOD
-  const a = 3 +
-    5
-  const c = true
-    ? 5
-    : 3
   ```
 
 ## Functions
