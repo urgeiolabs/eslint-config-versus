@@ -13,7 +13,7 @@ module.exports = {
     es6: true
   },
   extends: 'eslint:recommended',
-  plugins: ['react'],
+  plugins: ['react', 'import'],
   rules: {
     'no-console': 0,
     'no-irregular-whitespace': 0,
