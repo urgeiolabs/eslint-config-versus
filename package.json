@@ -1,11 +1,10 @@
 {
   "name": "eslint-config-versus",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "eslint": "4.9.0",
-    "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-react": "7.4.0"
   },
   "devDependencies": {},

@@ -1,6 +1,7 @@
 module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
+    allowImportExportEverywhere: true,
     ecmaVersion: 7,
     sourceType: 'module',
     ecmaFeatures: {
@@ -13,7 +14,7 @@ module.exports = {
     es6: true
   },
   extends: 'eslint:recommended',
-  plugins: ['react', 'import'],
+  plugins: ['react'],
   rules: {
     'no-console': 0,
     'no-irregular-whitespace': 0,
