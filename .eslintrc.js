@@ -93,7 +93,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': 1,
     'react/jsx-no-target-blank': 1,
     'react/jsx-no-undef': 1,
-    'react/jsx-tag-spacing': { beforeSelfClosing: 'always' },
+    'react/jsx-tag-spacing': [1, { beforeSelfClosing: 'always' }],
     'react/jsx-uses-vars': 1,
     'react/jsx-uses-react': 1
   }
