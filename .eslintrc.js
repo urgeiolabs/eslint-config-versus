@@ -28,7 +28,7 @@ module.exports = {
     'no-self-compare': 1,
     'no-unmodified-loop-condition': 1,
     'no-useless-call': 1,
-    'no-useless-concat': 1,
+    'no-useless-concat': 0,
     'no-useless-escape': 1,
     'no-void': 1,
     'no-with': 1,
