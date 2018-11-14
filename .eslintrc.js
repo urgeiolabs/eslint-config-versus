@@ -45,7 +45,6 @@ module.exports = {
     'array-bracket-spacing': [1, 'never', { singleValue: false, objectsInArrays: false, arraysInArrays: false }],
     'brace-style': [1, '1tbs', { allowSingleLine: true }],
     'camelcase': [1, { properties: 'never' }],
-    'comma-dangle': [1, 'never'],
     'comma-spacing': [1, { after: true, before: false }],
     'eol-last': 1,
     'func-call-spacing': [1, 'never'],
