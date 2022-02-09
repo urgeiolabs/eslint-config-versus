@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     allowImportExportEverywhere: true,
     ecmaVersion: 7,
@@ -22,6 +22,7 @@ module.exports = {
     'no-undef': 0,
     'no-octal-escape': 1,
     'no-proto': 1,
+    'no-prototype-builtins': 0,
     'no-redeclare': 1,
     'no-return-assign': 1,
     'no-script-url': 1,
